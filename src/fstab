@@ -1,0 +1,14 @@
+proc            /proc           proc    defaults          0       0
+PARTUUID=5f1f5ac2-01  /boot           vfat    defaults          0       2
+PARTUUID=5f1f5ac2-02  /               ext4    defaults,noatime  0       1
+
+/dev/sda1 /mnt/ext_hdd ntfs rw 0 0
+
+//ReadyNAS.fritz.box/Documents /mnt/network/Documents cifs uid=root,file_mode=0777,dir_mode=0777,credentials=/etc/samba/credentials
+//ReadyNAS.fritz.box/Pictures /mnt/network/Pictures cifs uid=root,file_mode=0777,dir_mode=0777,credentials=/etc/samba/credentials
+//ReadyNAS.fritz.box/Videos /mnt/network/Videos cifs uid=root,file_mode=0777,dir_mode=0777,credentials=/etc/samba/credentials
+//ReadyNAS.fritz.box/Ralf-Data /mnt/network/Ralf-Data cifs uid=root,file_mode=0777,dir_mode=0777,credentials=/etc/samba/credentials
+
+
+# a swapfile is not a swap partition, no line here
+#   use  dphys-swapfile swap[on|off]  for that
