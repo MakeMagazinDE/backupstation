@@ -12,4 +12,4 @@ Maker Media GmbH
 
 Hier gibt es die nötigen Skripte und die 3D-Druck-Dateien. 
 
-Der vollständige Artikel zum Projekt steht in der **[Make-Ausgabe x/yy ab Seite z]([https://www.heise.de/select/make/xxx)**.
+Der vollständige Artikel zum Projekt steht in der **[Make-Ausgabe 4/23](https://www.heise.de/select/make/2023/4/2314509325493017392)**.
